@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		756C44062101F1DE00948BFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756C44052101F1DE00948BFC /* AppDelegate.swift */; };
+		756C44082101F1DE00948BFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756C44072101F1DE00948BFC /* ViewController.swift */; };
+		756C440B2101F1DE00948BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756C44092101F1DE00948BFC /* Main.storyboard */; };
+		756C440D2101F1DF00948BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756C440C2101F1DF00948BFC /* Assets.xcassets */; };
+		756C44102101F1DF00948BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756C440E2101F1DF00948BFC /* LaunchScreen.storyboard */; };
+		756C441B2101F1DF00948BFC /* PageCotrollerWithBckwardForwardButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756C441A2101F1DF00948BFC /* PageCotrollerWithBckwardForwardButtonTests.swift */; };
+		756C44262101F1DF00948BFC /* PageCotrollerWithBckwardForwardButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756C44252101F1DF00948BFC /* PageCotrollerWithBckwardForwardButtonUITests.swift */; };
+		756C44342101F37C00948BFC /* PageControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756C44332101F37C00948BFC /* PageControlManager.swift */; };
+		756C44362101F3D800948BFC /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756C44352101F3D800948BFC /* PageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		756C44172101F1DF00948BFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 756C43FA2101F1DE00948BFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 756C44012101F1DE00948BFC;
+			remoteInfo = PageCotrollerWithBckwardForwardButton;
+		};
+		756C44222101F1DF00948BFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 756C43FA2101F1DE00948BFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 756C44012101F1DE00948BFC;
+			remoteInfo = PageCotrollerWithBckwardForwardButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		756C44022101F1DE00948BFC /* PageCotrollerWithBckwardForwardButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageCotrollerWithBckwardForwardButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		756C44052101F1DE00948BFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		756C44072101F1DE00948BFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		756C440A2101F1DE00948BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		756C440C2101F1DF00948BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		756C440F2101F1DF00948BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		756C44112101F1DF00948BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756C44162101F1DF00948BFC /* PageCotrollerWithBckwardForwardButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageCotrollerWithBckwardForwardButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		756C441A2101F1DF00948BFC /* PageCotrollerWithBckwardForwardButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCotrollerWithBckwardForwardButtonTests.swift; sourceTree = "<group>"; };
+		756C441C2101F1DF00948BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756C44212101F1DF00948BFC /* PageCotrollerWithBckwardForwardButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageCotrollerWithBckwardForwardButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		756C44252101F1DF00948BFC /* PageCotrollerWithBckwardForwardButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCotrollerWithBckwardForwardButtonUITests.swift; sourceTree = "<group>"; };
+		756C44272101F1DF00948BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756C44332101F37C00948BFC /* PageControlManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlManager.swift; sourceTree = "<group>"; };
+		756C44352101F3D800948BFC /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		756C43FF2101F1DE00948BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756C44132101F1DF00948BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756C441E2101F1DF00948BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		756C43F92101F1DE00948BFC = {
+			isa = PBXGroup;
+			children = (
+				756C44042101F1DE00948BFC /* PageCotrollerWithBckwardForwardButton */,
+				756C44192101F1DF00948BFC /* PageCotrollerWithBckwardForwardButtonTests */,
+				756C44242101F1DF00948BFC /* PageCotrollerWithBckwardForwardButtonUITests */,
+				756C44032101F1DE00948BFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		756C44032101F1DE00948BFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				756C44022101F1DE00948BFC /* PageCotrollerWithBckwardForwardButton.app */,
+				756C44162101F1DF00948BFC /* PageCotrollerWithBckwardForwardButtonTests.xctest */,
+				756C44212101F1DF00948BFC /* PageCotrollerWithBckwardForwardButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		756C44042101F1DE00948BFC /* PageCotrollerWithBckwardForwardButton */ = {
+			isa = PBXGroup;
+			children = (
+				756C44052101F1DE00948BFC /* AppDelegate.swift */,
+				756C44072101F1DE00948BFC /* ViewController.swift */,
+				756C44092101F1DE00948BFC /* Main.storyboard */,
+				756C440C2101F1DF00948BFC /* Assets.xcassets */,
+				756C440E2101F1DF00948BFC /* LaunchScreen.storyboard */,
+				756C44112101F1DF00948BFC /* Info.plist */,
+				756C44332101F37C00948BFC /* PageControlManager.swift */,
+				756C44352101F3D800948BFC /* PageView.swift */,
+			);
+			path = PageCotrollerWithBckwardForwardButton;
+			sourceTree = "<group>";
+		};
+		756C44192101F1DF00948BFC /* PageCotrollerWithBckwardForwardButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				756C441A2101F1DF00948BFC /* PageCotrollerWithBckwardForwardButtonTests.swift */,
+				756C441C2101F1DF00948BFC /* Info.plist */,
+			);
+			path = PageCotrollerWithBckwardForwardButtonTests;
+			sourceTree = "<group>";
+		};
+		756C44242101F1DF00948BFC /* PageCotrollerWithBckwardForwardButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				756C44252101F1DF00948BFC /* PageCotrollerWithBckwardForwardButtonUITests.swift */,
+				756C44272101F1DF00948BFC /* Info.plist */,
+			);
+			path = PageCotrollerWithBckwardForwardButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		756C44012101F1DE00948BFC /* PageCotrollerWithBckwardForwardButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 756C442A2101F1DF00948BFC /* Build configuration list for PBXNativeTarget "PageCotrollerWithBckwardForwardButton" */;
+			buildPhases = (
+				756C43FE2101F1DE00948BFC /* Sources */,
+				756C43FF2101F1DE00948BFC /* Frameworks */,
+				756C44002101F1DE00948BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PageCotrollerWithBckwardForwardButton;
+			productName = PageCotrollerWithBckwardForwardButton;
+			productReference = 756C44022101F1DE00948BFC /* PageCotrollerWithBckwardForwardButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		756C44152101F1DF00948BFC /* PageCotrollerWithBckwardForwardButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 756C442D2101F1DF00948BFC /* Build configuration list for PBXNativeTarget "PageCotrollerWithBckwardForwardButtonTests" */;
+			buildPhases = (
+				756C44122101F1DF00948BFC /* Sources */,
+				756C44132101F1DF00948BFC /* Frameworks */,
+				756C44142101F1DF00948BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				756C44182101F1DF00948BFC /* PBXTargetDependency */,
+			);
+			name = PageCotrollerWithBckwardForwardButtonTests;
+			productName = PageCotrollerWithBckwardForwardButtonTests;
+			productReference = 756C44162101F1DF00948BFC /* PageCotrollerWithBckwardForwardButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		756C44202101F1DF00948BFC /* PageCotrollerWithBckwardForwardButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 756C44302101F1DF00948BFC /* Build configuration list for PBXNativeTarget "PageCotrollerWithBckwardForwardButtonUITests" */;
+			buildPhases = (
+				756C441D2101F1DF00948BFC /* Sources */,
+				756C441E2101F1DF00948BFC /* Frameworks */,
+				756C441F2101F1DF00948BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				756C44232101F1DF00948BFC /* PBXTargetDependency */,
+			);
+			name = PageCotrollerWithBckwardForwardButtonUITests;
+			productName = PageCotrollerWithBckwardForwardButtonUITests;
+			productReference = 756C44212101F1DF00948BFC /* PageCotrollerWithBckwardForwardButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		756C43FA2101F1DE00948BFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Affle Pvt Ltd";
+				TargetAttributes = {
+					756C44012101F1DE00948BFC = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					756C44152101F1DF00948BFC = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 756C44012101F1DE00948BFC;
+					};
+					756C44202101F1DF00948BFC = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 756C44012101F1DE00948BFC;
+					};
+				};
+			};
+			buildConfigurationList = 756C43FD2101F1DE00948BFC /* Build configuration list for PBXProject "PageCotrollerWithBckwardForwardButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 756C43F92101F1DE00948BFC;
+			productRefGroup = 756C44032101F1DE00948BFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				756C44012101F1DE00948BFC /* PageCotrollerWithBckwardForwardButton */,
+				756C44152101F1DF00948BFC /* PageCotrollerWithBckwardForwardButtonTests */,
+				756C44202101F1DF00948BFC /* PageCotrollerWithBckwardForwardButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		756C44002101F1DE00948BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756C44102101F1DF00948BFC /* LaunchScreen.storyboard in Resources */,
+				756C440D2101F1DF00948BFC /* Assets.xcassets in Resources */,
+				756C440B2101F1DE00948BFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756C44142101F1DF00948BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756C441F2101F1DF00948BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		756C43FE2101F1DE00948BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756C44082101F1DE00948BFC /* ViewController.swift in Sources */,
+				756C44342101F37C00948BFC /* PageControlManager.swift in Sources */,
+				756C44062101F1DE00948BFC /* AppDelegate.swift in Sources */,
+				756C44362101F3D800948BFC /* PageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756C44122101F1DF00948BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756C441B2101F1DF00948BFC /* PageCotrollerWithBckwardForwardButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756C441D2101F1DF00948BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756C44262101F1DF00948BFC /* PageCotrollerWithBckwardForwardButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		756C44182101F1DF00948BFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 756C44012101F1DE00948BFC /* PageCotrollerWithBckwardForwardButton */;
+			targetProxy = 756C44172101F1DF00948BFC /* PBXContainerItemProxy */;
+		};
+		756C44232101F1DF00948BFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 756C44012101F1DE00948BFC /* PageCotrollerWithBckwardForwardButton */;
+			targetProxy = 756C44222101F1DF00948BFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		756C44092101F1DE00948BFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				756C440A2101F1DE00948BFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		756C440E2101F1DF00948BFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				756C440F2101F1DF00948BFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		756C44282101F1DF00948BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		756C44292101F1DF00948BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		756C442B2101F1DF00948BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PageCotrollerWithBckwardForwardButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = affle.com.PageCotrollerWithBckwardForwardButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		756C442C2101F1DF00948BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PageCotrollerWithBckwardForwardButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = affle.com.PageCotrollerWithBckwardForwardButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		756C442E2101F1DF00948BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 455228AUGU;
+				INFOPLIST_FILE = PageCotrollerWithBckwardForwardButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = affle.com.PageCotrollerWithBckwardForwardButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PageCotrollerWithBckwardForwardButton.app/PageCotrollerWithBckwardForwardButton";
+			};
+			name = Debug;
+		};
+		756C442F2101F1DF00948BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 455228AUGU;
+				INFOPLIST_FILE = PageCotrollerWithBckwardForwardButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = affle.com.PageCotrollerWithBckwardForwardButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PageCotrollerWithBckwardForwardButton.app/PageCotrollerWithBckwardForwardButton";
+			};
+			name = Release;
+		};
+		756C44312101F1DF00948BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 455228AUGU;
+				INFOPLIST_FILE = PageCotrollerWithBckwardForwardButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = affle.com.PageCotrollerWithBckwardForwardButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PageCotrollerWithBckwardForwardButton;
+			};
+			name = Debug;
+		};
+		756C44322101F1DF00948BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 455228AUGU;
+				INFOPLIST_FILE = PageCotrollerWithBckwardForwardButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = affle.com.PageCotrollerWithBckwardForwardButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PageCotrollerWithBckwardForwardButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		756C43FD2101F1DE00948BFC /* Build configuration list for PBXProject "PageCotrollerWithBckwardForwardButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756C44282101F1DF00948BFC /* Debug */,
+				756C44292101F1DF00948BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		756C442A2101F1DF00948BFC /* Build configuration list for PBXNativeTarget "PageCotrollerWithBckwardForwardButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756C442B2101F1DF00948BFC /* Debug */,
+				756C442C2101F1DF00948BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		756C442D2101F1DF00948BFC /* Build configuration list for PBXNativeTarget "PageCotrollerWithBckwardForwardButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756C442E2101F1DF00948BFC /* Debug */,
+				756C442F2101F1DF00948BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		756C44302101F1DF00948BFC /* Build configuration list for PBXNativeTarget "PageCotrollerWithBckwardForwardButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756C44312101F1DF00948BFC /* Debug */,
+				756C44322101F1DF00948BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 756C43FA2101F1DE00948BFC /* Project object */;
+}
